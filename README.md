@@ -1,2 +1,2 @@
 # Cholk
-data generator
+大概是个数据生成器。
