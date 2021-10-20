@@ -28,7 +28,7 @@ class TreeMaker
 				int ver=rand()%i+1,wei=rand()%maxWeight;
 				while(ver==i)ver=rand()%i+1;
 				if(rand()&1)edge.push_back(GraphEdge(ver,i,wei));
-				else edge.push_back(GraphEdge(i,ver,wei));//50%¸ÅÂÊ½»»»
+				else edge.push_back(GraphEdge(i,ver,wei));//50%æ¦‚ç‡äº¤æ¢
 			}
 			std::shuffle(edge.begin(),edge.end(),random_device());
 		}
